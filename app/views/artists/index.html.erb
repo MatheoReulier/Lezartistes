@@ -1,14 +1,14 @@
 <p style="color: green"><%= notice %></p>
+<header class="titre1" > <h1>Lezartistes, partage tes talents</h1> </header>
 
-<h1>Artists</h1>
 
 <div id="artists">
   <% @artists.each do |artist| %>
     <%= render artist %>
     <p>
-      <%= link_to "Show this artist", artist %>
+      <%= link_to "Voir la page complète de l'artiste", artist %>
     </p>
   <% end %>
 </div>
 
-<%= link_to "New artist", new_artist_path %>
+<%= link_to "Créer un nouvel artiste", new_artist_path %>

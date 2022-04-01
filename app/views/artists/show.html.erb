@@ -3,8 +3,8 @@
 <%= render @artist %>
 
 <div>
-  <%= link_to "Edit this artist", edit_artist_path(@artist) %> |
-  <%= link_to "Back to artists", artists_path %>
+  <%= link_to "Modifier la page de l'artiste", edit_artist_path(@artist) %> |
+  <%= link_to "Retourner à la page artistes", artists_path %>
 
-  <%= button_to "Destroy this artist", @artist, method: :delete %>
+  <%= button_to "Supprimer l'article ", @artist, method: :delete %>
 </div>

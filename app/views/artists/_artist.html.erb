@@ -1,22 +1,29 @@
+
+
 <div id="<%= dom_id artist %>">
+<p>
+    <strong class= "image.txt"></strong>
+    <img src="<%= artist.image %>" alt=""class="image">
+
+  </p>
+
+
   <p>
-    <strong>Name:</strong>
+    <strong class="artistetxt">Nom de l'artiste :</strong>
     <%= artist.name %>
   </p>
 
+
   <p>
-    <strong>Domain:</strong>
+    <strong class="domainetxt">Domaine :</strong>
     <%= artist.domain %>
   </p>
 
   <p>
-    <strong>Description:</strong>
+    <strong class="descriptiontxt">Biographie et réalisations :</strong>
     <%= artist.description %>
+
   </p>
 
-  <p>
-    <strong>Image:</strong>
-    <%= artist.image %>
-  </p>
 
 </div>
